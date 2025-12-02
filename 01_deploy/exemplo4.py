@@ -4,7 +4,7 @@ import json
 import streamlit as st
 
 AGENT_ID = "agente_pdf"
-ENDPOINT = f"http://localhost:8000/agents/{AGENT_ID}/runs"
+ENDPOINT = f"https://agno-c35z.onrender.com/agents/{AGENT_ID}/runs"
 
 # 2 - Conexão com o Agno (SERVER) =========================================
 
